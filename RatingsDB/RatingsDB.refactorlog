@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e3778a12-3202-4700-b079-1aa68c3507e3" ChangeDateTime="09/10/2015 17:51:04">
+    <Property Name="ElementName" Value="[dbo].[Person].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PersonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d6e63fe-8826-49a5-ab7e-675368bf8375" ChangeDateTime="09/10/2015 17:51:10">
+    <Property Name="ElementName" Value="[dbo].[Rating].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RatingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0b3e2037-44fc-45a7-8a5f-2871b32f95b7" ChangeDateTime="09/10/2015 17:55:14">
+    <Property Name="ElementName" Value="[dbo].[Programme].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Programme]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProgrammeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7955d08c-fa76-429f-98a5-66724c36f625" ChangeDateTime="09/10/2015 17:56:16">
+    <Property Name="ElementName" Value="[dbo].[Programme].[Channel]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Programme]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ChannelId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ca57a45-870e-472a-af5c-9811e574a98a" ChangeDateTime="09/10/2015 17:56:52">
+    <Property Name="ElementName" Value="[dbo].[Channel].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Channel]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ChannelId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7a129d5a-c625-40c1-aea0-6ff19277409b" ChangeDateTime="09/10/2015 17:58:12">
+    <Property Name="ElementName" Value="[dbo].[Rating].[ProgrammeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LinkId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="19700ca7-99cd-4d71-8e0d-6ac1a66aa149" ChangeDateTime="09/10/2015 17:58:16">
+    <Property Name="ElementName" Value="[dbo].[Rating].[Rating]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=";" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34d21fc8-dfc9-4ca2-b17f-1a8e3a9d44d4" ChangeDateTime="09/10/2015 18:48:07">
+    <Property Name="ElementName" Value="[dbo].[Rating].[;]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Rating" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ebd423f9-377e-46b1-9da7-c4492fc0715e" ChangeDateTime="09/10/2015 18:49:55">
+    <Property Name="ElementName" Value="[dbo].[Season].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Season]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SeasonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37d6e37e-edac-4cc2-8705-a76f5cbe06f7" ChangeDateTime="09/10/2015 18:52:09">
+    <Property Name="ElementName" Value="[dbo].[Rating].[LinkId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SeasonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="72a845aa-bdf0-4fba-8780-11ed5a6c87e4" ChangeDateTime="09/10/2015 18:53:47">
+    <Property Name="ElementName" Value="[dbo].[Season].[Year]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Season]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FinishYear" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="06b24ecd-48ae-4da7-9b4e-b528445b3ddd" ChangeDateTime="09/11/2015 08:06:55">
+    <Property Name="ElementName" Value="[dbo].[Rating].[RatingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SeasonRatingId" />
+  </Operation>
+</Operations>
